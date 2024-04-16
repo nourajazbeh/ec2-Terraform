@@ -1,5 +1,5 @@
 podinfo
-e2e test cve-scan Go Report Card Docker Pulls
+
 
 Podinfo is a tiny web application made with Go that showcases best practices of running microservices in Kubernetes. Podinfo is used by CNCF projects like Flux and Flagger for end-to-end testing and workshops.
 
