@@ -45,11 +45,4 @@ GET /store/{hash} returns the content of the file /data/hash if exists
 GET /ws/echo echos content via websockets podcli ws ws://localhost:9898/ws/echo
 GET /chunked/{seconds} uses transfer-encoding type chunked to give a partial response and then waits for the specified period
 GET /swagger.json returns the API Swagger docs, used for Linkerd service profiling and Gloo routes discovery
-gRPC API:
-
-/grpc.health.v1.Health/Check health checking
-/grpc.EchoService/Echo echos the received content
-/grpc.VersionService/Version returns podinfo version and Git commit hash
-Web UI:
-
-
+gRPC API.
